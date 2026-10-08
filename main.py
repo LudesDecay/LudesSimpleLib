@@ -89,6 +89,7 @@ def menu():
             return
         else:
             print("Invalid command, ensure spelling is correct and try again")
+            menu()
     
 intro()
 controls()
